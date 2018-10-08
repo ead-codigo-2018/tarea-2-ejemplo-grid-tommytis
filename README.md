@@ -1,2 +1,2 @@
-# Flex-box-tarea
+# Grid Responsive
 Tomas Vergara Flexbox responsive
