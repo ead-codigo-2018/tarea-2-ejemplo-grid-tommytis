@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color:#fff;
+}
+
+.row{
+  text-align: center;
+  background: #605553;
+  padding: 2em;
+  width:80%;
+  flex-wrap: wrap;
+
+}
+
+.container{
+
+  display:grid;
+  grid-template-columns: 50% 50%;
+  width:80%;
+  color:#010101;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+h3{
+  align-self: flex-start;
+}
+.container >div{
+
+background: #eee;
+padding: 1em;
+}
+
+
+.container >div:nth-child(odd){
+  background: #ddd;
+
+}
+
+}
